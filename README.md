@@ -19,9 +19,13 @@ SetHandler application/x-httpd-php
 
 To disable Directory Listing search for Options and change the following line
 
+```
 	Options Indexes FollowSymLinks 
+```
 To
+```
 	Options FollowSymLinks
+```
 
 To enable automatic redirecting to the Piwik home page search for Redirect and add the following lines in
 ```
